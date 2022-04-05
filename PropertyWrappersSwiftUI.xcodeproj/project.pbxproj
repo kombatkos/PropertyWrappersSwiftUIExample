@@ -11,6 +11,13 @@
 		A4D49FA327FC623D008F5BD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D49FA227FC623D008F5BD4 /* ContentView.swift */; };
 		A4D49FA527FC6240008F5BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D49FA427FC6240008F5BD4 /* Assets.xcassets */; };
 		A4D49FA827FC6240008F5BD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D49FA727FC6240008F5BD4 /* Preview Assets.xcassets */; };
+		A4D49FB727FC629E008F5BD4 /* EnvironmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D49FB027FC629E008F5BD4 /* EnvironmentDetailView.swift */; };
+		A4D49FB827FC629E008F5BD4 /* EnvironmentObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D49FB127FC629E008F5BD4 /* EnvironmentObjectExample.swift */; };
+		A4D49FB927FC629E008F5BD4 /* ObservedObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D49FB327FC629E008F5BD4 /* ObservedObjectExample.swift */; };
+		A4D49FBA27FC629E008F5BD4 /* ObservedObjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D49FB427FC629E008F5BD4 /* ObservedObjectDetailView.swift */; };
+		A4D49FBB27FC629E008F5BD4 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D49FB627FC629E008F5BD4 /* Counter.swift */; };
+		A4D49FC027FC62A6008F5BD4 /* BindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D49FBE27FC62A6008F5BD4 /* BindingExample.swift */; };
+		A4D49FC127FC62A6008F5BD4 /* BindingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D49FBF27FC62A6008F5BD4 /* BindingDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		A4D49FA227FC623D008F5BD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4D49FA427FC6240008F5BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4D49FA727FC6240008F5BD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4D49FB027FC629E008F5BD4 /* EnvironmentDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentDetailView.swift; sourceTree = "<group>"; };
+		A4D49FB127FC629E008F5BD4 /* EnvironmentObjectExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExample.swift; sourceTree = "<group>"; };
+		A4D49FB327FC629E008F5BD4 /* ObservedObjectExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservedObjectExample.swift; sourceTree = "<group>"; };
+		A4D49FB427FC629E008F5BD4 /* ObservedObjectDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservedObjectDetailView.swift; sourceTree = "<group>"; };
+		A4D49FB627FC629E008F5BD4 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		A4D49FBE27FC62A6008F5BD4 /* BindingExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingExample.swift; sourceTree = "<group>"; };
+		A4D49FBF27FC62A6008F5BD4 /* BindingDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,8 @@
 			children = (
 				A4D49FA027FC623D008F5BD4 /* PropertyWrappersSwiftUIApp.swift */,
 				A4D49FA227FC623D008F5BD4 /* ContentView.swift */,
+				A4D49FBC27FC62A6008F5BD4 /* Работа с типом значения */,
+				A4D49FAE27FC629E008F5BD4 /* Работа с ссылочным типом */,
 				A4D49FA427FC6240008F5BD4 /* Assets.xcassets */,
 				A4D49FA627FC6240008F5BD4 /* Preview Content */,
 			);
@@ -65,6 +81,59 @@
 				A4D49FA727FC6240008F5BD4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4D49FAE27FC629E008F5BD4 /* Работа с ссылочным типом */ = {
+			isa = PBXGroup;
+			children = (
+				A4D49FAF27FC629E008F5BD4 /* EvironmentObject */,
+				A4D49FB227FC629E008F5BD4 /* ObservedObject */,
+				A4D49FB527FC629E008F5BD4 /* Support */,
+			);
+			path = "Работа с ссылочным типом";
+			sourceTree = "<group>";
+		};
+		A4D49FAF27FC629E008F5BD4 /* EvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				A4D49FB027FC629E008F5BD4 /* EnvironmentDetailView.swift */,
+				A4D49FB127FC629E008F5BD4 /* EnvironmentObjectExample.swift */,
+			);
+			path = EvironmentObject;
+			sourceTree = "<group>";
+		};
+		A4D49FB227FC629E008F5BD4 /* ObservedObject */ = {
+			isa = PBXGroup;
+			children = (
+				A4D49FB327FC629E008F5BD4 /* ObservedObjectExample.swift */,
+				A4D49FB427FC629E008F5BD4 /* ObservedObjectDetailView.swift */,
+			);
+			path = ObservedObject;
+			sourceTree = "<group>";
+		};
+		A4D49FB527FC629E008F5BD4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A4D49FB627FC629E008F5BD4 /* Counter.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A4D49FBC27FC62A6008F5BD4 /* Работа с типом значения */ = {
+			isa = PBXGroup;
+			children = (
+				A4D49FBD27FC62A6008F5BD4 /* State+Binding */,
+			);
+			path = "Работа с типом значения";
+			sourceTree = "<group>";
+		};
+		A4D49FBD27FC62A6008F5BD4 /* State+Binding */ = {
+			isa = PBXGroup;
+			children = (
+				A4D49FBE27FC62A6008F5BD4 /* BindingExample.swift */,
+				A4D49FBF27FC62A6008F5BD4 /* BindingDetailView.swift */,
+			);
+			path = "State+Binding";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D49FB727FC629E008F5BD4 /* EnvironmentDetailView.swift in Sources */,
+				A4D49FB827FC629E008F5BD4 /* EnvironmentObjectExample.swift in Sources */,
+				A4D49FBA27FC629E008F5BD4 /* ObservedObjectDetailView.swift in Sources */,
 				A4D49FA327FC623D008F5BD4 /* ContentView.swift in Sources */,
 				A4D49FA127FC623D008F5BD4 /* PropertyWrappersSwiftUIApp.swift in Sources */,
+				A4D49FB927FC629E008F5BD4 /* ObservedObjectExample.swift in Sources */,
+				A4D49FC127FC62A6008F5BD4 /* BindingDetailView.swift in Sources */,
+				A4D49FC027FC62A6008F5BD4 /* BindingExample.swift in Sources */,
+				A4D49FBB27FC629E008F5BD4 /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
